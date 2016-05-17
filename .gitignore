@@ -9,3 +9,7 @@ tmp
 .settings
 Thumbs.db
 node_modules
+Gruntfile.js
+package.json
+platform
+i18n
