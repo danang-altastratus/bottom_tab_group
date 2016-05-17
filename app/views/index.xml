@@ -1,0 +1,48 @@
+<Alloy>
+	
+    <TabGroup module="tabGroup">
+        <Tab module="tabGroup" title="Tab 1" icon="/images/icons/519-tools-1.png" activeIcon="/images/icons/519-tools-1_active.png" activeColor="#000">
+            <Window module="tabGroup" title="Tab 1" id="firstWindow">            	            	
+                <Widget id="pagingControl" src="de.manumaticx.pagingcontrol" />
+                <ScrollableView id="scrollableViewContainer" onScroll="animateBar">			
+					<Require type="view" src="firstTab" id="firstTabMenu" />
+					<Require type="view" src="secondTab" id="secondTabMenu" />
+					<Require type="view" src="thirdTab" id="thirdTabMenu" />
+					<Require type="view" src="fourthTab" id="fourthTabMenu" />
+				</ScrollableView>
+            </Window>
+        </Tab>
+        <Tab module="tabGroup" title="Tab 2" icon="/images/icons/516-archive-box.png" activeIcon="/images/icons/516-archive-box_active.png" activeColor="#000">
+            <Window module="tabGroup"  title="Tab 2">
+                <Label>Tab 2</Label>
+            </Window>
+        </Tab>
+        <Tab module="tabGroup" title="Tab 3" icon="/images/icons/522-floppy-disk.png" activeIcon="/images/icons/522-floppy-disk_active.png" activeColor="#000">
+            <Window module="tabGroup"  title="Tab 3">
+                <Label >Tab 3</Label>
+            </Window>
+        </Tab>
+        <Tab module="tabGroup" title="Tab 4" icon="/images/icons/522-floppy-disk.png" activeIcon="/images/icons/522-floppy-disk_active.png" activeColor="#000">
+            <Window module="tabGroup">
+                <Label >Tab 4</Label>
+            </Window>
+        </Tab>
+    </TabGroup>
+
+	<!-- <Window class="container" onOpen="windowOpen">
+		<ActionBar id="actionbar" title="MILES" onHomeIconItemSelected="doMenuClick" />
+        <Menu>
+            <MenuItem id="item1" title="Settings" onClick="openSettings" />
+            <MenuItem id="item2" title="Search" onClick="doSearch" />
+        </Menu>        
+		<Widget id="pagingControl" src="de.manumaticx.pagingcontrol" />
+
+		<ScrollableView id="scrollableViewContainer" onScroll="animateBar">			
+			<Require type="view" src="firstTab" id="firstTabMenu" />
+			<Require type="view" src="secondTab" id="secondTabMenu" />
+			<Require type="view" src="thirdTab" id="thirdTabMenu" />
+			<Require type="view" src="fourthTab" id="fourthTabMenu" />
+		</ScrollableView>	
+		<Widget id="myTabGroup" src="me.wslong.tiTabs" />		
+	</Window> -->
+</Alloy>

@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="thirdView" title="Tommorow" backgroundColor="red" class="container">
+		
+	</View>
+</Alloy>

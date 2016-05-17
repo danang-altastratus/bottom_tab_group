@@ -1,0 +1,9 @@
+<Alloy>
+	<View title="Today" class="container">
+		<ListView id="listViewContainer">
+			<ListSection id="listSection">
+				
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>

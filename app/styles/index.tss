@@ -1,0 +1,30 @@
+".container": {
+	backgroundColor:"white"
+},
+"#scrollableViewContainer" : {
+	top: 48
+},
+"MenuItem": {
+    showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+},
+"#item1": {
+    icon: Ti.Android.R.drawable.ic_menu_preferences
+},
+"#item2": {
+    icon: Ti.Android.R.drawable.ic_menu_search
+},
+"#actionbar": {
+    icon: "/actionicon.png",
+    displayHomeAsUp: true,
+    backgroundImage: "/actionbackground.png"
+},
+"#pagingControl" : {
+    top: 0,
+    indicatorColor: "#09c",
+    tabs: true,
+    backgroundColor : "#cacaca",
+    font : {
+        fontSize : 14,
+        fontWeight : 'bold'
+    }
+}
