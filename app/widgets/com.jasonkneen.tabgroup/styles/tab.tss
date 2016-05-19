@@ -1,9 +1,0 @@
-"#clickZone" : {
-	backgroundColor:"transparent"				
-}
-
-".tab" : {	
-	backgroundColor: "#000",
-	backgroundSelectedColor: "#fff"	
-}
-

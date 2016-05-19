@@ -10,6 +10,6 @@
   "os:windows": {},
   "dependencies": {
     "de.manumaticx.pagingcontrol": "*",
-    "com.jasonkneen.tabgroup": "*"
+    "me.wslong.tiTabs": "*"
   }
 }
